@@ -28,4 +28,3 @@ There are two python files called ‘component_titles.py’ and ‘comp_split.py
 
 5.	Run the python file ‘make_graphs.py’. This file creates a chart containing the top 20 words found in each csv file. 
 
-![image](https://user-images.githubusercontent.com/110196682/186507840-6bf03186-cc52-49cb-97bc-641c7bca9414.png)
