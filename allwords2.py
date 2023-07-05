@@ -377,4 +377,3 @@ superset_m = ['active', 'adventurous', 'aggress', 'ambitio', 'analy', 'assert', 
               'individual', 'intellect', 'lead', 'logic', 'masculine', 'objective', 'opinion', 'outspoken',
               'persist', 'principle', 'reckless', 'self-confiden', 'self-relian', 'self-sufficien',
               'selfconfiden', 'selfrelian', 'selfsufficien', 'stubborn', 'superior', 'unreasonab']
-
