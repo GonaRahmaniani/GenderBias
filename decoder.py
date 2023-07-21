@@ -192,6 +192,7 @@ while true=='y':
     #pull ads
     filename = input("Enter .csv file with ads: ")
     ads_df = pandas.read_csv(filename)
+    ads_df = ads_df.drop_duplicates()
     #get column of ad text
     #ads_list = ads_df["Job Ad"].tolist()
     ads_list = [x for x in ads_df["Job Ad"] if str(x) != 'nan']
