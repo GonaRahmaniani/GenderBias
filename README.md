@@ -39,4 +39,4 @@ Part 3: Making Graphs
 
 3.  Run the file 'word_bins.py' This file creates graphs using the data that was calculated previously with 'strength_count.py'.
 
-4.  
+4.  Run the file 'word_percentage_graphs.py'
