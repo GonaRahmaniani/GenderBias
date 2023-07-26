@@ -40,6 +40,6 @@ There are multiple files that are used to create graphs using matplotlib. Genera
 
 2.  The next file uses data from the csv file that was created using the file 'gender_percentage.py'. Split this file into eight separate files containing nurse data, engineer data, computer science data, qualifications data, responsibilities data, descriptions data, whole ad data, and all data respectively. Run the file 'percentage_graph.py' once for each of the eight files. This will create a stacked bar chart for the data in each of the eight csv files.
 
-3.  Run the file 'word_bins.py' This file creates graphs using the data that was calculated previously with 'strength_count.py'.
+3.  Run the file 'word_bins_graph.py' This file creates graphs using the data that was calculated previously with 'strength_count.py'.
 
 4.  Run the file 'word_percentage_graph.py' once for Feminine words and once for Masculine words. This file grabs the data from the charts created previously with 'word_percentage_top.py' and grabs the words that appear in all three charts, turning the data into graphs.
