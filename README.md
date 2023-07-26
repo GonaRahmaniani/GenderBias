@@ -36,7 +36,7 @@ Part 3: Making Graphs
 
 There are multiple files that are used to create graphs using matplotlib. Generally these files need to be run once per csv file containing the engineering, nursing, and computer science data. (This is true unless otherwise specified)
 
-1.  Run the file 'common_words.py'. This file grabs the data from the charts that were created using 'make_charts.py' and turns them into graphs using matplotlib. The graphs are stored in PNG files.
+1.  Run the file 'common_words_graph.py'. This file grabs the data from the charts that were created using 'make_charts.py' and turns them into graphs using matplotlib. The graphs are stored in PNG files.
 
 2.  The next file uses data from the csv file that was created using the file 'gender_percentage.py'. Split this file into eight separate files containing nurse data, engineer data, computer science data, qualifications data, responsibilities data, descriptions data, whole ad data, and all data respectively. Run the file 'percentage.py' once for each of the eight files. This will create a stacked bar chart for the data in each of the eight csv files.
 
