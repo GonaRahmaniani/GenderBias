@@ -6,12 +6,7 @@ In case this is helpful for the future completion of the gender decoder project 
 
 Part 1: AD Collection
 
-1.  In order to run the code to scrape the ads, several libraries need to be installed which can be done via anaconda or terminal. These libraries include:
-  a.  git
-  b.  matplotlib?
-  c.  numpy
-  d.  pandas
-  e.  playwright
+1.  In order to run the code to scrape the ads, several libraries need to be installed which can be done via anaconda or terminal. These libraries include: git, matplotlib, numpy, pandas, playwright.
 
 3.	There are two files included in the code I’ve sent you: ‘scrape_urls.py’ and ‘scrape_ads.py’ which will be used to scrape the data from Indeed.
 
