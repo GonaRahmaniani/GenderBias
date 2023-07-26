@@ -36,3 +36,7 @@ Part 3: Making Graphs
 1.  Run the file 'common_words.py'. This file grabs the data from the charts that were created using 'make_graphs.py' and turns them into graphs using matplotlib. The graphs are stored in PNG files.
 
 2.  The next file uses data from the csv file that was created using the file 'gender_percentage.py'. Split this file into eight separate files containing nurse data, engineer data, computer science data, qualifications data, responsibilities data, descriptions data, whole ad data, and all data respectively. Run the file 'percentage.py' once for each of the eight files. This will create a stacked bar chart for the data in each of the eight csv files.
+
+3.  Run the file 'word_bins.py' This file creates graphs using the data that was calculated previously with 'strength_count.py'.
+
+4.  
