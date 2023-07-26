@@ -16,7 +16,7 @@ b.	Run ‘scrape_ads.py’ once the links are collected. This python file goes i
 
 Part 2: Decoding
 
-There are two python files called ‘component_titles.py’ and ‘comp_split.py’. Together these files split each ad into qualifications, description, and responsibilities and create new csv files for each. The following steps can be done before or after splitting the ads into their components. If you want the decoder data for both the whole ads and the ads split into their components repeat the following steps twice (once on the whole ad csv’s and once on each of the component csv’s).
+There are two python files called ‘component_titles.py’ and ‘comp_split.py’. Together these files split each ad into qualifications, description, and responsibilities and create new csv files for each. To specify the list of files to split into components, edit the 'FILENAME_LIST' variable. The following steps can be done before or after splitting the ads into their components. If you want the decoder data for both the whole ads and the ads split into their components repeat the following steps twice (once on the whole ad csv’s and once on each of the component csv’s).
 
 1.	Run the python file ‘decoder.py’. This will determine if the ad is feminine, masculine, neutral, or nothing for each decoder. 
 
