@@ -24,10 +24,10 @@ counts = []
 index = 0
 for count in fem_count:
     if fem_count[index] != ' ':
-        colours.append('pink')
+        colours.append('green')
         counts.append(float(fem_count[index]))
     else:
-        colours.append('blue')
+        colours.append('orange')
         counts.append(float(male_count[index]))
     index += 1
 
@@ -38,8 +38,8 @@ plt.xticks(rotation=45, fontsize=5)
 plt.xlabel('Words')
 plt.ylabel('Count of Word')
 
-female = mp.Patch(color='pink', label='Female')
-male = mp.Patch(color='blue', label='Male')
+female = mp.Patch(color='green', label='Female')
+male = mp.Patch(color='orange', label='Male')
 plt.legend(handles =[female,male])
 
 plt.savefig(NAMES_DICT[TOPIC][2], dpi=300, bbox_inches='tight')
