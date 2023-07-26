@@ -33,3 +33,5 @@ There are two python files called ‘component_titles.py’ and ‘comp_split.py
 
 Part 3: Making Graphs
 
+1.  Run the file 'common_words.py'. This file grabs the data from the charts that were created using 'make_graphs.py' and turns them into graphs using matplotlib. The graphs are stored in PNG files.
+
