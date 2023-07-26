@@ -33,14 +33,14 @@ for i in range(0, len(neutral)):
 title = 'Percentage of ' + NAMES_DICT[TOPIC][0] + ' Labelled Feminine, Neutral or Masculine'
 plt.title(title)
 
-b1 = plt.barh(types, feminine, color='pink')
+b1 = plt.barh(types, feminine, color='green')
 ax.bar_label(b1, label_type='center', fmt='%.2f')
 left = feminine
 b2 = plt.barh(types, neutral, left=left, color='grey')
 ax.bar_label(b2, label_type='center', fmt='%.2f')
 for i in range(0, len(neutral)):
     left[i] = left[i] + neutral[i]
-b3 = plt.barh(types, masculine, left=left, color='blue')
+b3 = plt.barh(types, masculine, left=left, color='orange')
 ax.bar_label(b3, label_type='center', fmt='%.2f')
 
 plt.legend([b1, b2, b3], ['Feminine (%)', 'Neutral (%)', 'Masculine (%)'], bbox_to_anchor = (1.4, 0.5))
