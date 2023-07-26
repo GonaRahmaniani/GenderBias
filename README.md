@@ -29,3 +29,7 @@ There are two python files called ‘component_titles.py’ and ‘comp_split.py
 
 6.	Run the python file 'word_percentage.py'. This file calculates the percentage of ads each gendered word appears in and places this under the columns 'Percentage of Ads Containing Feminine Word' and 'Percentage of Ads Containing Masculine Word'.
 
+7.	Run the python file 'word_percentage_top.py'. This file grabs the top 20 words per gender that appear in the most ads and put them into two separate csv files (one for feminine and one for masculine).
+
+Part 3: Making Graphs
+
