@@ -23,7 +23,7 @@ counts = []
 
 index = 0
 for count in fem_count:
-    if fem_count[index] != ' ':
+    if fem_count[index] != ' ' and pd.isna(fem_count[index]) != True:
         colours.append('green')
         counts.append(float(fem_count[index]))
     else:
