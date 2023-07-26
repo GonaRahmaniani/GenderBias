@@ -2,7 +2,7 @@
 Gender Decoder Project 101
 Ella Palter
 
-In case this is helpful for the future completion of the gender decoder project I have written out the steps I took to collect the data from June – August 2022.
+In case this is helpful for the future completion of the gender decoder project I have written out the steps I took to collect the data from June – August 2022. (updated 2023 by Norah Seigel)
 
 Part 1: AD Collection
 
