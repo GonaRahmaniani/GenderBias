@@ -30,8 +30,8 @@ for i in range(0, len(fem_bins)):
 interval = np.arange(len(fem_bins))
 width = 0.4
 
-b1 = plt.bar(interval - 0.2, fem_bins, width, color='pink')
-b2 = plt.bar(interval + 0.2, masc_bins, width, color='blue')
+b1 = plt.bar(interval - 0.2, fem_bins, width, color='green')
+b2 = plt.bar(interval + 0.2, masc_bins, width, color='orange')
 
 name = 'Amount of Gendered Words per Word Count for the ' + NAMES_DICT[TOPIC][0] + ' Job Adverts'
 plt.title(name)
