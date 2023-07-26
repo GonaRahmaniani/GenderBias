@@ -10,7 +10,7 @@ Part 1: AD Collection
 
 3.	There are two files included in the code I’ve sent you: ‘scrape_urls.py’ and ‘scrape_ads.py’ which will be used to scrape the data from Indeed.
 
-a.	Run ‘scrape_urls.py’ first. This python file uses a headed browser to collect a series of URLs each leading to a single job ad. This code must run once for each ‘category’ of job ad you’d like to collect. This code can be run multiple times per category to maximize the amount of URLs collected. Change the 'FILENAME_OLD' variable to the file containing URLs already collected, 'FILENAME' variable to the file you want to save the new URLs to, and 'START_URL' to the URL with the correct searh query.\n
+a.	Run ‘scrape_urls.py’ first. This python file uses a headed browser to collect a series of URLs each leading to a single job ad. This code must run once for each ‘category’ of job ad you’d like to collect. This code can be run multiple times per category to maximize the amount of URLs collected. Change the 'FILENAME_OLD' variable to the file containing URLs already collected, 'FILENAME' variable to the file you want to save the new URLs to, and 'START_URL' to the URL with the correct searh query.  
 b.	Run ‘scrape_ads.py’ once the links are collected. This python file goes into each of the URLs collected by the previous scraper to grab the job title and description and write it to a csv file. Each job ‘category’ needs a respective csv file to write the data to, and txt file to grab the URLs from. These can be changed using the 'CSVFILENAME' and 'TXTFILENAME' variables respectively.
 
 Part 2: Decoding
