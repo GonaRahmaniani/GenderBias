@@ -19,11 +19,13 @@ There are two python files called ‘component_titles.py’ and ‘comp_split.py
 
 1.	Run the python file ‘decoder.py’. This will determine if the ad is feminine, masculine, neutral, or nothing for each decoder. 
 
-2.	Run the python file ‘word_count.py’. This code counts the number of appearances of the words in the file ‘gendered_words.csv’ in all of the ads and writes the data under a column called Count of word.
+2.	Make sure ‘word_strength.py’ is in the same directory as where you’re running the code and run the python file ‘word_count.py’. This code counts the number of appearances of the words in the file ‘gendered_words.csv’ in all of the ads and writes the data under a column called Count of word. This code also weights each word differently (as per the strengths in ‘word_strength.py’) and writes their weighted score under the column called “Word Scores’. 
 
-3.	Make sure ‘word_strength.py’ is in the same directory as where you’re running the code and run ‘word_score.py’. This code weights each word differently (as per the strengths in ‘word_strength.py’) and writes their weighted score under the column called “Word Scores’. 
+3.	Run ‘gender_percentage.py’ to get a summary of what percentage of the ads in a particular csv file are masculine, feminine, neutral, or nothing. This file must be run once for each csv file. 
 
-4.	Run ‘gender_percentage.py’ to get a summary of what percentage of the ads in a particular csv file are masculine, feminine, neutral, or nothing. This file must be run once for each csv file. 
+4.	Run the python file ‘make_graphs.py’. This file creates a chart containing the top 20 words found in each csv file.
 
-5.	Run the python file ‘make_graphs.py’. This file creates a chart containing the top 20 words found in each csv file. 
+5.	Run the python file 'strength_count.py'. This file calculates the percentage of gendered words per word count for each ad and puts it under the columns 'Feminine Strength per total' and 'Masculine Strenght per total'. Each ad is then put into different 'bins' with different percentage ranges and these bins are placed under the columns 'Fem total bins' and 'Masc total bins'.
+
+6.	Run the python file 'word_percentage.py'. This file calculates the percentage of ads each gendered word appears in and places this under the columns 'Percentage of Ads Containing Feminine Word' and 'Percentage of Ads Containing Masculine Word'.
 
