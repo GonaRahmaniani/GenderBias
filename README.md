@@ -24,7 +24,7 @@ There are two python files called ‘component_titles.py’ and ‘comp_split.py
 
 3.	Run ‘gender_percentage.py’ to get a summary of what percentage of the ads in a particular csv file are masculine, feminine, neutral, or nothing. This file must be run once for each csv file. 
 
-4.	Run the python file ‘make_graphs.py’. This file creates a chart containing the top 20 words found in each csv file.
+4.	Run the python file ‘make_charts.py’. This file creates a chart containing the top 20 words found in each csv file.
 
 5.	Run the python file 'strength_count.py'. This file calculates the percentage of gendered words per word count for each ad and puts it under the columns 'Feminine Strength per total' and 'Masculine Strenght per total'. Each ad is then put into different 'bins' with different percentage ranges and these bins are placed under the columns 'Fem total bins' and 'Masc total bins'.
 
@@ -36,7 +36,7 @@ Part 3: Making Graphs
 
 There are multiple files that are used to create graphs using matplotlib. Generally these files need to be run once per csv file containing the engineering, nursing, and computer science data. (This is true unless otherwise specified)
 
-1.  Run the file 'common_words.py'. This file grabs the data from the charts that were created using 'make_graphs.py' and turns them into graphs using matplotlib. The graphs are stored in PNG files.
+1.  Run the file 'common_words.py'. This file grabs the data from the charts that were created using 'make_charts.py' and turns them into graphs using matplotlib. The graphs are stored in PNG files.
 
 2.  The next file uses data from the csv file that was created using the file 'gender_percentage.py'. Split this file into eight separate files containing nurse data, engineer data, computer science data, qualifications data, responsibilities data, descriptions data, whole ad data, and all data respectively. Run the file 'percentage.py' once for each of the eight files. This will create a stacked bar chart for the data in each of the eight csv files.
 
