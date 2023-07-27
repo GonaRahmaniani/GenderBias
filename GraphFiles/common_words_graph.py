@@ -1,46 +1,67 @@
+#Creates bar charts showing top 20 most common gendered words per ad category
+#Creates separate graph for each filename specified below
 from matplotlib import pyplot as plt
 from matplotlib import patches as mp
 import pandas as pd
 import numpy as np
 
-TOPIC = 'Nurse'
+#Will be included in title of graphs
+NAMES = [
+    'Computer Science',
+    'Engineering',
+    'Nursing',
+]
 
-NAMES_DICT = {
-    'Computer Science' : ['Computer Science', 'cs_graph.csv', 'common_words_cs_2023.png'],
-    'Engineer' : ['Engineering', 'eng_graph.csv', 'common_words_eng_2023.png'],
-    'Nurse' : ['Nursing', 'nurse_graph.csv', 'common_words_nurse_2023.png'],
-}
+#files that were created previously using 'common_word_charts.py'
+FILENAMES = [
+    'cs_word_chart.csv',
+    'eng_word_chart.csv',
+    'nurse_word_chart.csv'
+]
 
-df = pd.read_csv(NAMES_DICT[TOPIC][1])
+#name of files that will contain final graphs
+FINALNAMES = [
+    'common_words_cs_2023.png',
+    'common_words_eng_2023.png',
+    'common_words_nurse_2023.png',
+]
 
-words = df.Word.tolist()
+i = 0
+for file in FILENAMES:
 
-fem_count = df.Female.tolist()
-male_count = df.Male.tolist()
+    df = pd.read_csv(file)
 
-colours = []
-counts = []
+    words = df.Word.tolist()
 
-index = 0
-for count in fem_count:
-    if fem_count[index] != ' ' and pd.isna(fem_count[index]) != True:
-        colours.append('green')
-        counts.append(float(fem_count[index]))
-    else:
-        colours.append('orange')
-        counts.append(float(male_count[index]))
-    index += 1
+    fem_count = df.Female.tolist()
+    male_count = df.Male.tolist()
 
-plt.bar(x=words,height=counts,color=colours, width=0.8, align='center')
+    colours = []
+    counts = []
 
-plt.title("Most Common Words in " + NAMES_DICT[TOPIC][0] + " Ads")
-plt.xticks(rotation=45, fontsize=5)
-plt.xlabel('Words')
-plt.ylabel('Count of Word')
+    index = 0
+    for count in fem_count:
+        if fem_count[index] != ' ' and pd.isna(fem_count[index]) != True:
+            colours.append('green')
+            counts.append(float(fem_count[index]))
+        else:
+            colours.append('orange')
+            counts.append(float(male_count[index]))
+        index += 1
 
-female = mp.Patch(color='green', label='Female')
-male = mp.Patch(color='orange', label='Male')
-plt.legend(handles =[female,male])
+    plt.bar(x=words,height=counts,color=colours, width=0.8, align='center')
 
-plt.savefig(NAMES_DICT[TOPIC][2], dpi=300, bbox_inches='tight')
-plt.show()
+    plt.title("Most Common Gendered Words in " + NAMES[i] + " Ads")
+    plt.xticks(rotation=45, fontsize=5)
+    plt.xlabel('Words')
+    plt.ylabel('Count of Word')
+
+    female = mp.Patch(color='green', label='Female Associated')
+    male = mp.Patch(color='orange', label='Male Associated')
+    plt.legend(handles =[female,male])
+
+    plt.savefig(FINALNAMES[i], dpi=300, bbox_inches='tight')
+    plt.clf()
+    #plt.show()
+
+    i += 1

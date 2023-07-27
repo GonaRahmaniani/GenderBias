@@ -1,6 +1,15 @@
+#calculates percent of gendered words per word count for masculine and feminine words
+#separates results into bins with a range of percentages
+#results written under 'Fem total bins' and 'Masc total bins' columns
 import pandas as pd
 import re 
 import math 
+
+FILENAMES = [
+    'cs_data.csv',
+    'eng_data.csv',
+    'nurse_data.csv',
+]
 
 def histogram_strength(val,gender,bins_total_m,bins_total_f):
 	if gender == 'm':
@@ -78,9 +87,5 @@ def strength_count(filename):
 	file = pd.concat([file,bins_df_total],axis=1)
 	file.to_csv(filename,index=False) 
 
-
-strength_count('eng_data.csv')
-
-strength_count('nurse_data.csv')
-
-strength_count('cs_data.csv')
+for file in FILENAMES:
+	strength_count(file)

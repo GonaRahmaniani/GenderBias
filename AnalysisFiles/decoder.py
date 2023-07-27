@@ -3,10 +3,28 @@
 #note that in decoder 7, an ad is never masculine unless there are
 #considerably more masculine words; it may consider an ad with
 #no female words to be fem/neutral
+#ensure allwords2.py is in the same directory when running this file
+#this file might take a while to run
 
 import pandas
 import allwords2 as allwords #wordlists for our decoders
 import re
+
+#list of files to decode
+FILENAMES = [
+    'cs_data.csv',
+    'cs_data_d.csv',
+    'cs_data_q.csv',
+    'cs_data_r.csv',
+    'eng_data.csv',
+    'eng_data_d.csv',
+    'eng_data_q.csv',
+    'eng_data_r.csv',
+    'nurse_data.csv',
+    'nurse_data_d.csv',
+    'nurse_data_q.csv',
+    'nurse_data_r.csv',
+]
 
 def decode(ad, fem_list, masc_list, isScore=False, isEploy=False, isTotal=False, isBeapplied=False, isBruin=False):
     #print("ad: %s\n\n" % ad)
@@ -187,10 +205,10 @@ score_m = allwords.superset_m
 
 true='y'
 
-while true=='y':
+for file in FILENAMES:
 
     #pull ads
-    filename = input("Enter .csv file with ads: ")
+    filename = file
     ads_df = pandas.read_csv(filename)
     ads_df = ads_df.drop_duplicates()
     #get column of ad text
@@ -281,7 +299,7 @@ while true=='y':
     #debugging; check a specific ad
     #print(decode(ads_list[203], dec1_f, dec1_m, isThree=False))
 
-    if (input("Write results to working .csv file? (y/n) ")=='y'):
-        ads_df.to_csv(filename,index=False)
+    #drop ad components that have no words
+    ads_df = ads_df[ads_df['Word count'] != 1]
 
-    true=input("do it again? (y/n)")
+    ads_df.to_csv(filename,index=False)

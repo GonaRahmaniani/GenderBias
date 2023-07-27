@@ -1,21 +1,38 @@
+#ensure word_strength.py and gendered_words.csv are in same directory when running this file
 import pandas
 import pandas
 from word_strength import dict_f, dict_m
 import re
 import math
 import word_strength
+import numpy
 # NUMBER 2
 #This file counts the number of appearances of the words in the csv file 'gendered_words.csv'
 # in the file you want to score and writes the results to said file
-ans = 'y'
 
-while ans == 'y':
+#list of files to be analyzed
+FILENAMES = [
+    'cs_data.csv',
+    'cs_data_d.csv',
+    'cs_data_q.csv',
+    'cs_data_r.csv',
+    'eng_data.csv',
+    'eng_data_d.csv',
+    'eng_data_q.csv',
+    'eng_data_r.csv',
+    'nurse_data.csv',
+    'nurse_data_d.csv',
+    'nurse_data_q.csv',
+    'nurse_data_r.csv',
+]
+
+for file in FILENAMES:
 
     #filename = input('Please type in csv name with gendered words that need to be counted')
     filename = 'gendered_words.csv'
     word_df = pandas.read_csv(filename)
 
-    filename2 = input('File to score: ')
+    filename2 = file
     df = pandas.read_csv(filename2)
     #print(df)
 
@@ -78,68 +95,6 @@ while ans == 'y':
         filter = [x for x in clean if x.strip()]
         m_lists.append(filter)
 
-    #calculate some scores
-    """for list in f_lists: #each list is an ad
-        fem_words.clear()
-        f_score = 0
-        wf_score = 0
-        for word in list:
-            for dict_word in dict_f:
-                if word.startswith(dict_word):
-                    #fem_words.append(word)
-                    fem_words.append(dict_word)
-                    break
-        #now fem_words is a list of the words we should count
-        #let's calculate the feminine score
-        for word in fem_words:
-            f_score += 1 #unweighted score, for percentages
-            wf_score += dict_f[word] #weighted score
-        f_scores.append(f_score)
-        wf_scores.append(wf_score)
-
-    for list in m_lists:
-        masc_words.clear()
-        m_score = 0
-        wm_score = 0
-        for word in list:
-            for dict_word in dict_m:
-                if word.startswith(dict_word):
-                    #masc_words.append(word)
-                    masc_words.append(dict_word)
-                    break
-        for word in masc_words:
-            m_score += 1
-            wm_score += dict_m[word]
-        m_scores.append(m_score)
-        wm_scores.append(wm_score)
-
-    #get word counts
-    word_count = df["Word count"].tolist()
-
-    for x in range(0, len(f_scores)):
-        wc = word_count[x]
-
-        abs_score.append(wf_scores[x] + wm_scores[x])
-        gen_score.append(wf_scores[x] - wm_scores[x])
-
-        #percentages use unweighted scores
-        per_fem.append((f_scores[x]/wc)*100)
-        per_masc.append((m_scores[x]/wc)*100)
-        per_abs.append(((f_scores[x]+m_scores[x])/wc)*100)
-        per_gen.append(((f_scores[x]-m_scores[x])/wc)*100)
-
-    df["Weighted Feminine score"] = wf_scores
-    df["Weighted Masculine score"] = wm_scores
-    df["Unweighted Feminine score"] = f_scores
-    df["Unweighted Masculine score"] = m_scores
-    df["Total score"] = abs_score
-    df["Gender score"] = gen_score
-
-    df["Percent female"] = per_fem
-    df["Percent male"] = per_masc
-    df["Percent total"] = per_abs
-    df["Percent gender"] = per_gen"""
-
     f = word_strength.dict_f
     f_strength = [x for x in f.values()]
 
@@ -164,7 +119,4 @@ while ans == 'y':
 
     df["Word Scores"] = pandas.Series(scores)
 
-    if (input("Print to working .csv? (y/n) ")=='y'):
-      df.to_csv(filename2, index=False)
-
-    ans = input('again?')
+    df.to_csv(filename2, index=False)

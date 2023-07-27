@@ -1,10 +1,15 @@
+#scrapes ads by following URLs in specified .txt file
+#adds job ads to .csv file containing existing job ads
 from playwright.sync_api import sync_playwright
 import pandas
 import random
 import time
 with sync_playwright() as pw:
 
+    #text file containing new URLs just collected
     TXTFILENAME = 'nurse_urls.txt'
+    #file that ads will be written to
+    #this file must already exist with the columns 'Job Title' and 'Job Ad'
     CSVFILENAME = 'nurse_data.csv'
 
     ad_urls = []
@@ -13,14 +18,7 @@ with sync_playwright() as pw:
         for line in f:
             ad_urls.append(line.strip())
 
-    #use for testing on one ad:
-    #ad_urls = ad_urls.[0]
-
-    page_number = 0
-
     for url in ad_urls:
-
-        page_number += 1
 
         browser = pw.chromium.launch(headless=False)
         context = browser.new_context(viewport={'width' : 500, 'height' : 500})
@@ -45,7 +43,8 @@ with sync_playwright() as pw:
 
             with open(filename, 'w') as f:
                 f.write('')
-            
+
+        #if page doesn't contain HTML element, close browser and continue   
         except:
             timeout = True
             page.close()
@@ -63,10 +62,3 @@ with sync_playwright() as pw:
 
             page.close()
             browser.close()
-
-            #time.sleep(random.uniform(1.0, 3.0))
-
-            #if page_number ==2:
-                #page_number = 0
-                #sec = random.uniform(1.0, 5.0)
-                #time.sleep(sec)
