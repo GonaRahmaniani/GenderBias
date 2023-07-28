@@ -38,8 +38,20 @@ There are multiple files that are used to create graphs using matplotlib.
 
 1.  Run the file 'common_words_graph.py'. This file grabs the data from the charts that were created using 'common_word_charts.py' and turns them into graphs using matplotlib. The graphs are stored in PNG files. To specify which files to use, edit the 'FILENAMES' variable.
 
-2.  The next file, 'percentage_graph.py' uses data from the csv file that was created using the file 'gender_percentage.py'. This file can be run once using the whole file or multiple times after splitting the file into different categories (such as nursing ads, qualification components, etc.). To specify which file should be used to create the graph, edit the 'FILENAMES' variable. Run the file 'percentage_graph.py'. This will create a stacked bar chart for the data in the specified csv file showing the percentage of ads labelled Feminine, Neutral, or Masculine.
+EXAMPLE:
+![common_words_eng_2023](https://github.com/nseigel/Gender-Decoder-Project/assets/105315630/0f5ecde7-003d-4f43-8ae8-768aa0b036fa)
 
-3.  Run the file 'word_bins_graph.py' This file creates graphs using the data that was calculated previously with 'strength_count.py'. Edit the 'FILENAMES' variable to specify which files to create graphs with.
+3.  The next file, 'percentage_graph.py' uses data from the csv file that was created using the file 'gender_percentage.py'. This file can be run once using the whole file or multiple times after splitting the file into different categories (such as nursing ads, qualification components, etc.). To specify which file should be used to create the graph, edit the 'FILENAMES' variable. Run the file 'percentage_graph.py'. This will create a stacked bar chart for the data in the specified csv file showing the percentage of ads labelled Feminine, Neutral, or Masculine.
 
-4.  The file 'word_percentage_graph.py' runs once for Feminine words and once for Masculine words. This file grabs the data from the charts created previously with 'word_percentage_top.py' and grabs the words that appear in all three charts, turning the data into graphs. This file creates one graph for feminine words and one graph for masculine words. To specify which files contain the correct data edit the 'NAMES' dictionary. Index 0 contains information for the graph title, and indexes 1, 2, and 3 contain the engineering, computer science, and nursing data files respectively.
+EXAMPLE:
+![total_gender_percentage](https://github.com/nseigel/Gender-Decoder-Project/assets/105315630/05b6b2e3-e193-44ac-9022-e7c268f42914)
+
+5.  Run the file 'word_bins_graph.py' This file creates graphs using the data that was calculated previously with 'strength_count.py'. Edit the 'FILENAMES' variable to specify which files to create graphs with.
+
+EXAMPLE:
+![eng_word_bins](https://github.com/nseigel/Gender-Decoder-Project/assets/105315630/06a17960-3662-4409-ad4e-38a85927db22)
+
+7.  The file 'word_percentage_graph.py' runs once for Feminine words and once for Masculine words. This file grabs the data from the charts created previously with 'word_percentage_top.py' and grabs the words that appear in all three charts, turning the data into graphs. This file creates one graph for feminine words and one graph for masculine words. To specify which files contain the correct data edit the 'NAMES' dictionary. Index 0 contains information for the graph title, and indexes 1, 2, and 3 contain the engineering, computer science, and nursing data files respectively.
+
+EXAMPLE:
+![fem_word_percentage](https://github.com/nseigel/Gender-Decoder-Project/assets/105315630/2d308756-9e4a-42bc-a619-3c0708d66abd)
