@@ -54,4 +54,5 @@ EXAMPLE:
 7.  The file 'word_percentage_graph.py' runs once for Feminine words and once for Masculine words. This file grabs the data from the charts created previously with 'word_percentage_top.py' and grabs the words that appear in all three charts, turning the data into graphs. This file creates one graph for feminine words and one graph for masculine words. To specify which files contain the correct data edit the 'NAMES' dictionary. Index 0 contains information for the graph title, and indexes 1, 2, and 3 contain the engineering, computer science, and nursing data files respectively.
 
 EXAMPLE:
-![fem_word_percentage](https://github.com/nseigel/Gender-Decoder-Project/assets/105315630/2d308756-9e4a-42bc-a619-3c0708d66abd)
+![fem_word_percentage](https://github.com/nseigel/Gender-Decoder-Project/assets/105315630/b2b89bff-091b-4e81-936b-405abee8470e)
+
