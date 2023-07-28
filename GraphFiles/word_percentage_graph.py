@@ -67,7 +67,7 @@ for list in NAMES:
     name = 'Most Common ' + list[0] + ' Words by Percentage'
     plt.title(name)
     plt.xticks(interval, common_words, rotation=45, fontsize=5)
-    name = list[0] + 'Words'
+    name = list[0] + ' Words'
     plt.xlabel(name)
     plt.ylabel('Percentage of Ads that Words Were Found In (%)')
 
