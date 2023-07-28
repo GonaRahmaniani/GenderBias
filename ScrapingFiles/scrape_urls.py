@@ -6,11 +6,7 @@ import time
 
 with sync_playwright() as pw:
     
-    #file with old URLs to avoid collecting duplicate URLs
-    #after new URLs are collected, add them to this file
-    FILENAME_OLD = 'nurse_urls_old.txt'
-    #name of file that will be created containing new URLs
-    #this file shouldn't already exist
+    #name of the file containing nurse URLS (this file should already exist)
     FILENAME = 'nurse_urls.txt'
     #URL that scraper will start from
     #change term after 'q=' in URL to change the search term
@@ -18,7 +14,7 @@ with sync_playwright() as pw:
 
     old_urls = []
 
-    with open(FILENAME_OLD, 'r') as f:
+    with open(FILENAME, 'r') as f:
         for line in f:
             old_urls.append(line.strip())
     
@@ -39,8 +35,7 @@ with sync_playwright() as pw:
                 old_urls.append(url)
     
         global FILENAME
-        filename = FILENAME
-        with open(filename, 'a') as f:
+        with open(FILENAME, 'a') as f:
             for url in urls:
                 f.write(url + '\n')
 
