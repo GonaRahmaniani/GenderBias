@@ -1,3 +1,4 @@
+#Intended use: help create training data for NLP model
 #Takes CSV file full of eng or cs ads and classifies them as
 #low, mid, or high level under a column 'Classification'
 #if testing the accuracy of this program, set TESTING to True
