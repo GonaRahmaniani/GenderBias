@@ -179,5 +179,7 @@ if TESTING:
 
         precision = round(((tp / (tp + fp)) * 100), 2)
         recall = round(((tp / (tp + fn)) * 100), 2)
+        fscore = round(((2 * precision * recall)/(precision + recall)), 2)
         print(CLASS + ' precision: ' + str(precision) + '%')
         print(CLASS + ' recall: ' + str(recall) + '%')
+        print(CLASS + ' f1 score: ' + str(fscore) + '%')
