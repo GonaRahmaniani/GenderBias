@@ -49,7 +49,7 @@ EXAMPLE:
 5.  Run the file 'word_bins_graph.py' This file creates graphs using the data that was calculated previously with 'strength_count.py'. Edit the 'FILENAMES' variable to specify which files to create graphs with.
 
 EXAMPLE:
-![eng_word_bins](https://github.com/nseigel/Gender-Decoder-Project/assets/105315630/06a17960-3662-4409-ad4e-38a85927db22)
+![eng_word_bins](https://github.com/nseigel/Gender-Decoder-Project/assets/105315630/d6738124-c06c-454d-8af0-895fe20d8206)
 
 7.  The file 'word_percentage_graph.py' runs once for Feminine words and once for Masculine words. This file grabs the data from the charts created previously with 'word_percentage_top.py' and grabs the words that appear in all three charts, turning the data into graphs. This file creates one graph for feminine words and one graph for masculine words. To specify which files contain the correct data edit the 'NAMES' dictionary. Index 0 contains information for the graph title, and indexes 1, 2, and 3 contain the engineering, computer science, and nursing data files respectively.
 
