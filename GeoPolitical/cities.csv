@@ -1,0 +1,749 @@
+City,Population,Classification,Political Stance
+Calgary,1481806,large,Conservative
+Moose River Gold Mines,390096,large,Liberal
+Sidney,12318,small,Green
+Ottawa,1488307,large,Liberal
+Mississauga,717599,large,Liberal
+Toronto,6202225,large,Liberal
+Alberta Beach,864,rural,Conservative
+Brampton,656480,large,Liberal
+Moncton,157717,large,Liberal
+Spruce Grove,37645,medium,Conservative
+Vancouver,2642825,large,Liberal
+Abbotsford,195726,large,Conservative
+Winnipeg,834678,large,Liberal
+Edmonton,1418118,large,Conservative
+Vernon,67086,medium,Conservative
+Trail,14268,small,NDP
+Lethbridge,123847,large,Conservative
+Surrey,568322,large,Conservative
+Strathroy,23871,small,Conservative
+Halifax,465703,large,Liberal
+North York,869401,large,Liberal
+Burnaby,249125,large,Liberal
+Montréal,4291732,large,Liberal
+Brossard,91525,medium,Liberal
+Oshawa,415311,large,Conservative
+St. John's,212579,large,Liberal
+St. Catharines,433604,large,Liberal
+Chatham-Kent,104316,large,Conservative
+Antigonish,20129,small,Liberal
+Lakefield,2943,small,Conservative
+Picton,4508,small,Conservative
+Chalk River,1061,small,Conservative
+Timmins,41145,medium,NDP
+Boucherville,41743,medium,Bloc
+Stratford,33232,medium,Conservative
+Kanata,137118,large,Liberal
+Windsor,422630,large,NDP Liberal
+Esquimalt,17533,small,NDP
+Nanticoke,49216,medium,Conservative
+Charlottetown,78858,medium,Liberal
+Acheson,32205,medium,NDP
+Joe Batts Arm,2117,small,Conservative
+St. Thomas,42840,medium,Conservative
+Puslinch,7944,small,Conservative
+Cornwall,61415,medium,Conservative
+Pickering,99186,medium,Liberal
+Fort Smith,2248,small,Liberal
+Langley,132603,large,Conservative
+New Glasgow,34397,medium,Liberal
+Bedford,2558,small,Liberal
+Drayton Valley,7291,small,Conservative
+Vanier,118806,large,Liberal
+Dartmouth,96165,medium,Liberal
+Hall,1000,small,Conservative
+Etobicoke,118483,large,Liberal
+Parkland County,32205,medium,Conservative
+Saint-Laurent,102104,large,Liberal
+Richmond Hill,202022,large,Liberal
+Lower Mainland,3049496,large,Liberal
+Markham,338503,large,Liberal
+Kelowna,144576,large,Conservative
+Stony Plain,17993,small,Conservative
+Scarborough,113104,large,Liberal
+Prince Albert,45718,medium,Conservative
+Saskatoon,317480,large,Conservative
+New Westminster,78916,medium,NDP
+Richmond,209937,large,Liberal
+Squamish,24232,small,Conservative
+Grande Prairie,64141,medium,Conservative
+Fredericton,108610,large,Liberal
+Kitchener,256885,large,Liberal
+Regina,249217,large,Conservative
+Leduc,34094,medium,Conservative
+Guelph,165588,large,Liberal
+Courtenay,63282,medium,NDP
+Vegreville,5689,small,Conservative
+Coquitlam,148625,large,Liberal
+Victoria,397237,large,NDP
+Delta,108455,large,Liberal
+Whitehorse,31913,medium,Liberal
+Drummondville,101610,large,Bloc
+St. Albert,68232,medium,Conservative
+London,543551,large,Liberal
+Hamilton,785184,large,Liberal
+Camrose,18772,small,Conservative
+Swift Current,18745,small,Conservative
+Leamington,29680,small,Conservative
+Burlington,186948,large,Liberal
+Canmore,15990,small,Conservative
+Unity,2496,small,Conservative
+Athabasca County,6959,small,Conservative
+Red Deer,100844,large,Conservative
+Vaughan,323103,large,Liberal
+Waterloo,121436,large,Liberal
+West Kelowna,36078,medium,Conservative
+Penticton,47380,medium,NDP Conservative
+Kingston,172546,large,Liberal
+Kamloops,114142,large,Conservative
+Sainte-Anne-de-Bellevue,11638,small,Liberal
+Nanaimo,99863,medium,NDP
+Oakville,213759,large,Liberal
+Sudbury,170605,large,Liberal
+St. Brieux,638,rural,Conservative
+Sault Ste. Marie,76731,medium,Liberal
+Port Coquitlam,61498,medium,NDP Liberal
+Whitby,138501,large,Liberal
+Thunder Bay,123258,large,Liberal
+Muskoka Lakes,7652,small,Conservative
+Fort St. John,28729,small,Conservative
+Ingersoll,13693,small,Conservative
+Quebec City,542298,large,Liberal
+New Zealand,1766,small,Liberal
+Dublin,9038,small,Conservative
+Cambridge,138479,large,Liberal
+Barrie,212856,large,Conservative
+Sparwood,4148,small,Conservative
+Cranbrook,27040,small,Conservative
+Saint John,130613,large,Liberal
+Longueuil,254483,large,Bloc
+Ashton,1017449,large,Conservative
+Beaumont,20888,small,Conservative
+Dieppe,28114,small,Liberal
+Orillia,33411,medium,Conservative
+Florenceville-Bristol,1573,small,Liberal
+Saguenay,144723,large,Bloc
+L'ange Gardien,3842,small,Bloc
+Reykjavik,1210,small,Conservative
+Fort McMurray,68002,medium,Conservative
+Mirabel,61108,medium,Bloc
+Port Carling,7652,small,Conservative
+Halton,596637,large,Liberal
+Sherbrooke,227398,large,Liberal
+White Rock,21939,small,Conservative
+Agassiz,6300,small,Conservative
+Ponoka County,9998,small,Conservative
+Niagara,477941,large,Conservative
+Port Perry,9553,small,Conservative
+Concord,323103,large,Conservative
+Laval,438366,large,Liberal
+Medicine Hat,76376,medium,Conservative
+Mont-Royal,20953,small,Liberal
+Lakeshore,40410,small,Conservative
+Tiverton,717,rural,Conservative
+St. Jacobs,1959,small,Liberal
+Brockville,31661,medium,Conservative
+Georgetown,rural,small,Conservative
+Gloucester,78256,medium,Liberal
+Okanagan,4258,small,NDP Conservative
+Kitsilano,43045,medium,Liberal
+Bolton,26795,small,Conservative
+Mont-royal,20953,small,Liberal
+Campbell River,40704,medium,NDP
+Denver,2161,small,Liberal
+Belleville,55071,medium,Conservative
+Georgina,47642,medium,Conservative
+Dorval,19302,small,Liberal
+Banda,3571,small,Conservative
+Chicoutimi,103934,large,Conservative
+Westmount,19658,small,Liberal
+Saanichton,17385,small,Green
+Cairo,1968,small,Conservative
+Ajax,126666,large,Liberal
+Kirkland,19413,small,NDP
+Winkler,13745,small,Conservative
+Dollard-Des Ormeaux,48403,medium,Liberal
+Barrington,6523,small,Conservative
+Woodstock,195,rural,Conservative
+Gatineau,291041,large,Liberal
+Martensville,10549,small,Conservative
+Stittsville,46430,medium,Liberal
+Valcourt,2139,small,Bloc
+Chestermere,22163,small,Conservative
+Blackfalds,10470,small,Conservative
+Sackville,6099,small,Liberal
+Gellatly,36078,medium,Conservative
+Chilliwack,93230,medium,Conservative
+Port Moody,33535,medium,NDP
+Lacombe,13396,small,Conservative
+Airdrie,74100,medium,Conservative
+Corunna,6266,small,Conservative
+Teulon,1196,small,Conservative
+Rivière-du-Loup,20118,small,Conservative
+Vermilion,3948,small,Conservative
+Repentigny,86100,medium,Bloc
+Nepean,132769,large,Liberal
+Aurora,62057,medium,Liberal
+Waterdown,19462,small,Conservative
+Prince George,89490,medium,Conservative
+Peterborough,128624,large,Conservative
+Breslau,5053,small,Liberal
+Montreal,4291732,large,Liberal
+Woodbridge,106810,large,Liberal
+Cannington,1839,small,Conservative
+Whitefish,610,rural,Liberal
+Milton,132979,large,Liberal
+McCreary,748,rural,Conservative
+Stoney Creek,112028,large,Conservative
+Midhurst,21701,small,Conservative
+Thornhill,115292,large,Conservative
+Yellowknife,20340,small,Liberal
+Terrebonne,119944,large,Bloc
+Scoudouc,1000,small,Liberal
+Lunenburg,2396,small,Conservative
+Minnedosa,2741,small,Conservative
+Châteauguay,50815,medium,Liberal
+Quispamsis,18768,small,Conservative
+Alliston,23253,small,Conservative
+Brantford,104688,large,Conservative
+Mont-Saint-Hilaire,18859,small,Bloc
+Markdale,10424,small,Conservative
+Dundas,4332,small,Liberal
+Alma,282,rural,Conservative
+Kenora,14967,small,Conservative
+Lachine,119395,large,Liberal
+100 Mile House,1928,small,Conservative
+Orangeville,30167,medium,Conservative
+Sydney,29904,small,Liberal
+Rankin Inlet,2842,small,NDP
+Cold Lake,14961,small,Conservative
+Sainte-Julie,30045,medium,Bloc
+Nisku,14416,small,Conservative
+Sturgeon County,20061,small,Conservative
+Rocky View,41028,medium,Conservative
+Sherwood Park,72017,medium,Conservative
+Portage la Prairie,6888,small,Conservative
+Sarnia,13270,small,Conservative
+Coaldale,8771,small,Conservative
+Lloydminster,11843,small,Conservative
+Innisfail,7985,small,Conservative
+Warwick,3641,small,Conservative
+Hinton,9191,small,Conservative
+Sylvan Lake,16514,small,Conservative
+High River,14324,small,Conservative
+Copenhagen,9308,small,Conservative
+Slave Lake,6836,small,Conservative
+Gibraltar,9390,small,Conservative
+Whistler,9974,small,Liberal
+Cochrane,32199,medium,Conservative
+Redwater,1802,small,Conservative
+Simcoe,533169,large,Conservative
+Solina,101427,large,Conservative
+Hamburg,5819,small,Conservative
+Revelstoke,7709,small,Conservative
+Hanover,7967,small,Conservative
+Fernie,6320,small,Conservative
+Esterhazy,2345,small,Conservative
+Snow Lake,1088,small,NDP
+Whitecourt,9195,small,Conservative
+Qikiqtarjuaq,593,rural,NDP
+Dryden,7388,small,Conservative
+"Engineer, BC",424,rural,NDP
+Rockwood,5488,small,Conservative
+Strathmore,14339,small,Conservative
+Chipman,1201,small,Conservative
+Richibucto,1411,small,Liberal
+Maple Ridge,90990,medium,Conservative
+Mary River,5400,small,NDP
+Lanigan,1433,small,Conservative
+Port Alberni,25786,small,NDP
+Cobalt,989,rural,Liberal
+Kingsville,22119,small,Conservative
+Lévis,149683,large,Conservative
+Whiteshell,1380,small,Conservative
+Madoc,2233,small,Conservative
+Belle Plaine,79,rural,Conservative
+Chandler,7490,small,Liberal
+Grand Falls,1077,small,Conservative
+Parksville,31054,medium,NDP
+High Prairie,2065,small,Conservative
+Bromont,11357,small,Liberal
+Brandon,54268,medium,Conservative
+Clermont,3065,small,Bloc
+Bentley,1042,small,Conservative
+Edson,8374,small,Conservative
+Balmertown,4094,small,Conservative
+Newmarket,87942,medium,Liberal
+Kerrobert,970,rural,Conservative
+Lane,5884.small,Conservative
+Havelock,1055,small,Conservative
+Prentiss,10283,small,Conservative
+Wynyard,1667,small,Conservative
+Muskoka,66674,medium,Conservative
+Coldstream,11171,small,Conservative
+Pointe-Claire,33488,medium,Liberal
+Brooks,14924,small,Conservative
+Yorkton,19859,small,Conservative
+Ashcroft,1182,small,Conservative
+Saint-Bruno-de-Montarville,26273,small,Bloc
+Geraldton,1761,small,Liberal
+Didsbury,5070,small,Conservative
+North Bay,71736,medium,Liberal
+Saint-Jean-sur-Richelieu,97873,medium,Bloc
+Saint-Eustache,45276,medium,Bloc
+Midland,27894,small,Conservative
+Gibbons,3218,small,Conservative
+Matachewan,268,rural,NDP
+Carmacks,588,rural,Liberal
+Elkford,2749,small,Conservative
+Grindrod,1526,small,Conservative
+Headquarters,9158,small,NDP
+Kahnawake,10272,small,Bloc
+Beloeil,24104,small,Bloc
+Rexdale,94469,medium,Liberal
+Collingwood,24811,small,Conservative
+La Pocatière,4078,small,Conservative
+Salmon Arm,19432,small,Conservative
+Port Hardy,3902,small,NDP
+St. Andrews,146,rural,Conservative
+New Liskeard,4232,small,Liberal
+St. Stephen,4510,small,Conservative
+Duncan,5047,small,NDP
+Shawinigan,49620,medium,Liberal
+Fort Saskatchewan,27088,small,Conservative
+Estevan,10851,small,Conservative
+Carp,1477,small,Liberal
+Grimsby,28883,small,Conservative
+Quebec Harbour,6221,small,NDP
+Selkirk,10504,small,Conservative
+Lewisporte,3288,small,Conservative
+Fergus,23209,small,Conservative
+Saint-Germain-de-Grantham,4922,small,Bloc
+Oldcastle,23300,small,Liberal
+Tara,1119,small,Conservative
+Kingsey Falls,1986,small,Conservative
+Niverville,5947,small,Conservative
+Pitt Meadows,19146,small,Conservative
+Mount Hope,2413,small,Conservative
+Hythe,854,rural,Conservative
+Crossfield,3599,small,Conservative
+Millhaven,17943,small,Conservative
+Rimbey,2470,small,Conservative
+Renfrew,8190,small,Conservative
+Mont-Tremblant,10992,small,Bloc
+Rosedale,1524,small,Conservative
+Kitikmeot,6458,small,NDP
+Varennes,21198,small,Bloc
+East York,109359,large,Liberal
+Trois-Rivières,139163,large,Bloc
+Kimberley,4908,small,Conservative
+Saint-Placide,1715,small,Bloc
+Cocagne,2757,small,Liberal
+Trenton,2407,small,Conservative
+Oro,23017,small,Conservative
+Saanich,117735,large,NDP
+Emerald Park,1696,small,Conservative
+Castlegar,8338,small,NDP
+Chetwynd,2302,small,Conservative
+Thornbury,3474,small,Conservative
+Dunnville,5907,small,Conservative
+Courtice,101427,large,Conservative
+Bethune,560,rural,Conservative
+L'orignal,1359,small,Liberal
+Bowmanville,56742,medium,Conservative
+Bradford,38128,medium,Conservative
+Meadow Lake,5141,small,Conservative
+Atlantic,4336,small,Conservative
+Hydro,14576,small,Conservative
+Mackenzie,3281,small,Conservative
+Carberry,1818,small,Conservative
+Meota,325,rural,Conservative
+Campbellford,3372,small,Conservative
+Baie-d'urfe,3764,small,Liberal
+Lax Kw'alaams,627,rural,NDP
+Boisbriand,28308,small,Bloc
+Sussex,4440,small,Conservative
+Kincardine,12268,small,Conservative
+Gananoque,5383,small,Conservative
+Debert,19806,small,Conservative
+Blacks Harbour,907,rural,Conservative
+Chemainus,4033,small,NDP
+Langdon,5193,small,Conservative
+Lepreau,803,rural,Conservative
+Blainville,59819,medium,Bloc
+Hay River,3169,small,Liberal
+Tignish,744,rural,Liberal
+New Lowell,14814,small,Conservative
+Indian Head,1902,small,Conservative
+Huntsville,21147,small,Conservative
+Port Colborne,20033,small,Liberal
+Saint-Hubert,115082,large,Bloc
+Bon-conseil,1149,small,Bloc
+Scotford,99225,medium,Conservative
+Campbellton,7047,small,Liberal
+Virden,3118,small,Conservative
+Mount Forest,5040,small,Conservative
+Saint-Augustin-de-Desmaures,19907,small,Conservative
+Smithville,6456,small,Conservative
+Maple,186948,large,Conservative
+Torbay,7852,small,Liberal
+Hawkesbury,10194,small,Liberal
+Perth,6469,small,Conservative
+Odessa,220,rural,Conservative
+Stonewall,5046,small,Conservative
+Delhi,5344,small,Conservative
+Thompson,13035,small,NDP
+Utopia,22970,small,Conservative
+Lindsay,22367,small,Conservative
+Short Beach,10067,small,Conservative
+Prince Rupert,13442,small,NDP
+Lake Country,15817,small,Conservative
+Sept-Îles,27729,small,Bloc
+Mission,41519,medium,Conservative
+Exshaw,449,rural,Conservative
+Qualicum Beach,9303,small,NDP
+Salford,7583,small,Conservative
+Grande Pointe,7469,small,Conservative
+Summerside,18157,small,Liberal
+Aylmer,7699,small,Conservative
+Tillsonburg,18615,small,Conservative
+Port Mellon,2407,small,Liberal
+Truro,46157,medium,Conservative
+Capitale-Nationale,757950,large,Liberal
+Bath,17943,small,Conservative
+Lynn Lake,579,rural,NDP
+Coalhurst,2869,small,Conservative
+Dubreuilville,576,rural,NDP
+Prescott,4078,small,Conservative
+Rocky View County,41028,medium,Conservative
+Moose Jaw,33665,medium,Conservative
+Rocanville,889,rural,Conservative
+Fraser,965,rural,Conservative
+Oromocto,9045,small,Liberal
+Hanwell,4743,small,Conservative
+Kawartha Lakes,79247,medium,Conservative
+Bécancour,13561,small,Bloc
+Sainte-Thérèse,26533,small,Bloc
+Likely,4792,small,Conservative
+Espanola,5185,small,NDP
+Harrison Hot Springs,1552,small,Conservative
+Piedmont,3476,small,Bloc
+Oliver,5094,small,NDP
+Liverpool,2546,small,Conservative
+Acton Vale,7605,small,Bloc
+Val-Joli,1671,small,Conservative
+Fermont,2256,small,Bloc
+Port Dover,7871,small,Conservative
+Kensington,1812,small,Liberal
+Pincher Creek,3622,small,Conservative
+Mont-Wright,2256,small,Bloc
+Mount Pearl,22477,Liberal
+La Pocatiere,4078,small,Conservative
+ESPANOLA,5185,small,NDP
+White River,557,rural,NDP
+Dollard,20,rural,Liberal
+Okotoks,30405,medium,Conservative
+St. Peters,231,rural,Liberal
+Powell River,17825,small,NDP
+Osoyoos,5556,small,NDP
+Kapuskasing,8057,small,NDP
+Ponoka,7331,small,Conservative
+Wabasca,1591,small,Conservative
+Alhambra,11865,small,Conservative
+Rocky Mountain House,6765,small,Conservative
+Gjoa Haven,1349,small,NDP
+La Ronge,2521,small,Conservative
+Lamont,1744,small,Conservative
+Iqaluit,7429,small,NDP
+Trochu,998,rural,Conservative
+Clyde River,1181,small,NDP
+Bridgewater,8790,small,Conservative
+Musquodoboit Harbour,2319,small,Liberal
+Pond Inlet,1555,small,NDP
+Kyuquot,864,rural,NDP
+Onion Lake,4064,small,Conservative
+Fairview,2817,small,Conservative
+Invermere,3917,small,Conservative
+Ungava Bay,10000,small,Bloc
+Chéticamp,5207,small,Liberal
+La Loche,2514,small,Conservative
+Wetaskiwin,12594,small,Conservative
+Arthur,12431,small,Conservative
+Viking,986,rural,Conservative
+Ladysmith,8990,small,NDP
+Charlesbourg,109690,large,Conservative
+Fort McPherson,647,rural,Liberal
+King City,27333,small,Conservative
+Sechelt,10847,small,Liberal
+Montague,74,rural,Liberal
+Lillooet,2302,small,Conservative
+Corner Brook,19333,small,Liberal
+Belfast,1687,small,Liberal
+Neils Harbour,2673,small,Liberal
+Creston,5583,small,Conservative
+Fort Chipewyan,798,rural,Conservative
+Peace River,6619,small,Conservative
+Barrhead,4320,small,Conservative
+Killam,918,rural,Conservative
+Elk Point,1399,small,Conservative
+Essex,21216,small,Conservative
+Atikameg,734,rural,Conservative
+Nelson,11106,small,Conservative
+De Winton,23199,small,Conservative
+Grand Forks,4112,small,NDP
+Forks,4112,small,NDP
+Arichat,3136,small,Liberal
+Chester,10693,small,Conservative
+Lac du Bonnet,3563,small,Conservative
+High Level,3922,small,Conservative
+Casselman,3960,small,Liberal
+Utterson,21147,small,Conservative
+Inuvik,3137,small,Liberal
+Parry Sound,6879,small,Conservative
+Lasalle,82235,medium,Liberal
+Hearst,4794,small,NDP
+Saint-Romuald,13435,small,Conservative
+Golden,3986,small,Conservative
+Waterville,703,rural,Conservative
+Sainte-anne-de-madawaska,891,rural,Liberal
+Saint-Hyacinthe,57239,medium,Bloc
+Gogama,310,rural,Liberal
+Inverness,17346,small,Liberal
+Kemptville,4051,small,Conservative
+Shediac,7535,small,Liberal
+Oakbank,5041,small,Conservative
+Ste. Anne,5584,small,Conservative
+Whatì,543,rural,Liberal
+Scanterbury,5414,small,Conservative
+Caledonia,12179,small,Conservative
+Terrace,12017,small,NDP
+Bala,7652,small,Conservative
+Moose Factory,495,rural,NDP
+Welland,55750,medium,Liberal
+Barry's Bay,1084,small,Conservative
+Bay St. George,1135,small,Liberal
+Yarmouth,6829,small,Conservative
+Aldergrove,13105,small,Conservative
+Elmsdale,413,rural,Liberal
+Pembroke,14364,small,Conservative
+Cobble Hill,972,rural,NDP
+Tatamagouche,691,rural,Conservative
+Penetanguishene,10077,small,Conservative
+Stellarton,4007,small,Liberal
+Walkerton,4724,small,Conservative
+Kitimat,8236,small,NDP
+North Battleford,104,rural,Conservative
+Greater Napanee,16879,small,Conservative
+Goderich,7881,small,Conservative
+Mayo,188,rural,Liberal
+Comox,14806,small,NDP
+Middleton,1873,small,Conservative
+Notre-Dame-de-Grâce,105601,large,Liberal
+Dresden,2401,small,Conservative
+Deer Lake,1087,small,Conservative
+Orleans,139309,large,Liberal
+Tees,73,rural,Conservative
+Watson Lake,1133,small,Liberal
+Petrolia,6013,small,Conservative
+Plantagenet,1056,small,Liberal
+Arnprior,9629,small,Conservative
+Comox Valley,7926,small,NDP
+Innisfil,43326,medium,Conservative
+Meaford,11485,small,Conservative
+Notre-dame-des-pins,1812,small,Conservative
+Shilo,3011,small,Conservative
+Hagersville,3059,small,Conservative
+Shawnigan Lake,3908,small,NDP
+Brentwood Bay,712,rural,Green
+Laurentides,15768,small,Conservative
+Vaudreuil-Dorion,43268,medium,Liberal
+Lemoyne,4425,small,Liberal
+Saint-Jérôme,80213,medium,Bloc
+Stayner,4699,small,Conservative
+Magog,28312,small,Liberal
+Nicolet,8620,small,Bloc
+Saint-Lambert,22761,small,Liberal
+Sainte-Catherine,17347,small,Bloc
+Erin,11981,small,Conservative
+Beamsville,13323,small,Conservative
+Wingham,2981,small,Conservative
+Smiths Falls,9254,small,Conservative
+Millbrook,1739,small,Conservative
+Southampton,3993,small,Conservative
+Port Alice,739,rural,NDP
+Digby,7242,small,Conservative
+Creermore,1194,small,Conservative
+Rapid Lake,663,rural,Liberal
+The Pas,5639,small,NDP
+Brighton,12108,small,Conservative
+Carleton Place,12517,small,Conservative
+Verdun,69229,medium,Liberal
+Rimouski,48935,medium,Bloc
+Sorel-Tracy,35165,medium,Bloc
+Miramichi,17692,small,Conservative
+Tilbury,4687,small,Conservative
+Williams Lake,10947,small,Conservative
+Carbonear,4696,small,Liberal
+St. Paul,5863,small,Conservative
+Sainte-Adèle,14010,small,Bloc
+Exeter,4863,small,Conservative
+Ashern,616,rural,Conservative
+Montérégie,1591620,large,Liberal
+Puvirnituq,2129,small,Bloc
+Beausejour,3307,small,Conservative
+Shelburne,8994,small,Conservative
+Three Hills,3042,small,Conservative
+Owen Sound,21612,small,Conservative
+Guysborough,4585,small,Liberal
+Lanark,75760,medium,Conservative
+Glendon,338,rural,Conservative
+Centre-du-Québec,250445,large,Bloc
+Cape Breton,93694,medium,Liberal
+Lucknow,1154,small,Conservative
+Blind River,3422,small,NDP
+Elmira,10790,small,Liberal
+Wasaga Beach,24862,small,Conservative
+Cobourg,20519,small,Conservative
+L'Ancienne-Lorette,16970,small,Conservative
+Quinte West,46560,medium,Conservative
+Morin-heights,4678,small,Liberal
+Salaberry-de-Valleyfield,42787,medium,Bloc
+Bracebridge,17305,small,Conservative
+Bay Roberts,5974,small,Liberal
+Thorold,23816,small,Liberal
+Sainte-Foy,76262,medium,Liberal
+Sheet Harbour,10,rural,Liberal
+Laxgalts'ap,248,rural,NDP
+Neepawa,5685,small,Conservative
+Fogo Island,2117,small,Conservative
+Manning,1126,small,Conservative
+Island Lake,174,rural,Conservative
+Gaspé,15063,small,Liberal
+Deloraine,962,rural,Conservative
+Lincoln,25719,small,Conservative
+Sioux Lookout,5839,small,Conservative
+Clarence Creek,26505,small,Liberal
+Granby,69025,medium,Bloc
+Canso,4585,small,Liberal
+St. Marys,7386,small,Conservative
+Port Hope,17294,small,Conservative
+Alexis Creek,53,rural,Conservative
+Stouffville,36753,medium,Liberal
+Raymond,4199,small,Conservative
+Vanderhoof,4346,small,Conservative
+York,1173334,large,Liberal
+Amherst,9404,small,Conservative
+Fort Erie,32901,medium,Conservative
+Elliot Lake,11372,small,NDP
+Mahone Bay,1064,small,Conservative
+Flin Flon,4940,small,NDP
+Listowel,9539,small,Conservative
+Chambly,31444,medium,Bloc
+Grand Bend,3031,small,Conservative
+Almonte,6098,small,Conservative
+Gravenhurst,13157,small,Conservative
+Norwood,1585,small,Conservative
+Portneuf,3329,small,Conservative
+Manitoulin,13935,small,NDP
+Limoges,2213,small,Liberal
+West Island,236000,large,Liberal
+Belcarra,687,rural,NDP
+Amherstview,17943,small,Conservative
+Sturgeon Falls,6939,small,Liberal
+Mercier,14626,small,Bloc
+Enfield,36,rural,Liberal
+Mississippi Mills,14740,small,Conservative
+Long Sault,2154,small,Conservative
+Vineland,4395,small,Conservative
+Cavan Monaghan,10016,small,Conservative
+Nictaux,5218,small,Conservative
+Baie-Saint-Paul,7371,small,Bloc
+Kinngait,1441,small,NDP
+Abitibi,24764,small,Bloc
+Pangnirtung,1504,small,NDP
+St-Georges,32935,medium,Liberal
+Candiac,22997,small,Bloc
+Pictou,3107,small,Liberal
+Lanaudière,528598,large,Bloc
+Fort Frances,7466,small,Liberal
+Olds,9209,small,Conservative
+Mckellar,1419,small,Conservative
+Tweed,6067,small,Conservative
+Drumheller,7909,small,Conservative
+Bonnyville,6404,small,Conservative
+Nanton,2167,small,Conservative
+Stettler,5695,small,Conservative
+McLennan,695,rural,Conservative
+Tofino,2516,small,NDP
+Castor,803,rural,Conservative
+Spirit River,849,rural,Conservative
+Sanirajak,891,rural,NDP
+Bashaw,848,rural,Conservative
+Radway,231,rural,Conservative
+Chesterfield Inlet,397,rural,NDP
+Wainwright,6606,small,Conservative
+Tahsis,393,rural,NDP
+Morinville,10385,small,Conservative
+Norman Wells,673,rural,Liberal
+Elgin,94752,medium,Conservative
+Fort Macleod,3297,small,Conservative
+Kugluktuk,1382,small,NDP
+Ohsweken,1500,small,Conservative
+Blairmore,1522,small,Conservative
+Grande Cache,3276,small,Conservative
+Paris,14956,small,Conservative
+Saint-leonard,858,rural,Liberal
+Gagetown,324,rural,Conservative
+Valleyview,1673,small,Conservative
+Canoe Narrows,950,rural,Conservative
+Englehart,1442,small,NDP
+Durham,696992,large,Conservative
+Nipawin,4570,small,Conservative
+Wardsville,420,rural,Conservative
+Annapolis,21252,small,Conservative
+Black Diamond,2574,small,Conservative
+Two Hills,1416,small,Conservative
+Baker Lake,2061,small,NDP
+Vulcan,1769,small,Conservative
+Mundare,689,rural,Conservative
+Consort,644,rural,Conservative
+Galahad,125,rural,Conservative
+Belwood,31093,medium,Conservative
+Merritt,7051,small,Conservative
+Cardston,3724,small,Conservative
+Edmundston,16437,small,Liberal
+McBride,588,rural,Conservative
+Red Lake,4094,small,Conservative
+Saint-Charles-Borromée,15285,small,Bloc
+Selby,16879,small,Conservative
+Uxbridge,21556,small,Liberal
+Haldimand,49216,medium,Conservative
+L'Île-Perrot,11638,small,Liberal
+Rouyn-Noranda,42313,medium,Bloc
+Boyle,825,rural,Conservative
+Taber,8862,small,Conservative
+Devon,6545,small,Conservative
+Smoky Lake,1127,small,Conservative
+The Glades,3377,small,Conservative
+Banff,8305,small,Conservative
+Lutselk'e,333,rural,Liberal
+Delaware,18928,small,Conservative
+Port McNeill,2356,small,NDP
+Fort Simpson,1100,small,Liberal
+Temiskaming Shores,9634,small,Liberal
+Claresholm,3804,small,Conservative
+Saint-Boniface,5156,small,Bloc
+Chelmsford,6199,small,Liberal
+Daysland,789,rural,Conservative
+Grimshaw,2601,small,Conservative
+Grande-riviere,3384,small,Liberal
+Caledon,76581,medium,Conservative
+Eastern Passage,439819,large,Liberal
+Saint-lazare-de-bellechasse,1332,small,Conservative
+Rockland,13625,small,Liberal
+Ancaster,40557,medium,Liberal
+Athabasca,6959,small,Conservative
+Richelieu,97873,medium,Bloc
+Saint-Georges,32935,medium,Liberal
+Remote,0,remote,None
