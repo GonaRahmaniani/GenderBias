@@ -46,8 +46,8 @@ for file in FILENAMES:
     interval = np.arange(len(fem_bins))
     width = 0.4
 
-    b1 = plt.bar(interval - 0.2, fem_bins, width, color='red')
-    b2 = plt.bar(interval + 0.2, masc_bins, width, color='skyblue')
+    b1 = plt.bar(interval - 0.2, fem_bins, width, color='green')
+    b2 = plt.bar(interval + 0.2, masc_bins, width, color='orange')
 
     name = 'Amount of Gendered Words per Word Count for the ' + NAMES[index] + ' Job Adverts'
     plt.title(name)
